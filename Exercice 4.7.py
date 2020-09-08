@@ -1,3 +1,21 @@
+# demander l age de utilisateur
+# demander cb d année de permis
+# demander nombre d accident responsable
+# si age < 25 et année de permis < 2
+    #si accident == 0 
+    # afficher vous avez droit au tarif rouge
+    # sinon 
+    # afficher nous ne pouvons pas vous assurer 
+
+# demander duree du contrat chez assurareur si present
+# si duree contrat > 5
+    # demander la couleur d'assurance actuel
+    # si vert:
+        # afficher bleu
+
+
+
+
 
 age = int(input("Quel age avez vous :"))
 duree_permis = int(input("Ecrivez depuis combien de temps avez vous votre permis :"))

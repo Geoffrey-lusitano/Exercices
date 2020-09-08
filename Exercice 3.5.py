@@ -1,3 +1,12 @@
+# demande ecrire nb 1 puis nb 2 a utilisateur
+# si nob 1 < 0 et que nb2 < 0
+# afficher le nombre est positif
+# si nb1 > 0 et que nb 2 > 0
+# afficher le nombre est positif
+# sinon 
+# afficher le nombre est négatif
+
+
 nombre_1 = input("ecrivez un nombre : ")
 
 nombre_2 = input("ecrivez un second nombre : ")
