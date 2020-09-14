@@ -1,5 +1,10 @@
-# demande ecrire nb 1 puis nb 2 a utilisateur
-# si nob 1 < 0 et que nb2 < 0
+# CONSIGNES
+
+# Ecrire un algorithme qui demande deux nombres à l’utilisateur et l’informe ensuite si le produit est négatif ou positif (on inclut cette fois le traitement du cas où le produit peut être nul). Attention toutefois, on ne doit pas calculer le produit !
+
+# ALGO
+# Variable ecrire nb 1 puis nb 2 a utilisateur
+# si nb1 < 0 et que nb2 < 0
 # afficher le nombre est positif
 # si nb1 > 0 et que nb 2 > 0
 # afficher le nombre est positif

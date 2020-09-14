@@ -1,6 +1,14 @@
-# demandner de choisir un jour
-# demander de choisir un mois
-# demander de choisir une année
+# CONSIGNES 
+
+# Ecrivez un algorithme qui a près avoir demandé un numéro de jour, de mois et d'année à l'utilisateur, renvoie s'il s'agit ou non d'une date valide.
+# Cet exercice est certes d’un manque d’originalité affligeant, mais après tout, en algorithmique comme ailleurs, il faut connaître ses classiques ! Et quand on a fait cela une fois dans sa vie, on apprécie pleinement l’existence d’un type numérique « date » dans certains langages…).
+# Il n'est sans doute pas inutile de rappeler rapidement que le mois de février compte 28 jours, sauf si l’année est bissextile, auquel cas il en compte 29. L’année est bissextile si elle est divisible par quatre. Toutefois, les années divisibles par 100 ne sont pas bissextiles, mais les années divisibles par 400 le sont.
+
+# ALGO
+
+# Variable A Ecrire de choisir un jour
+# Variable B Ecrire de choisir un mois
+# Variable C Ecrire de choisir une année
 
 # variable bissextile = année modulo 4 == 0
 # faire une liste avec les mois

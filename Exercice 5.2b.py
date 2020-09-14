@@ -1,8 +1,23 @@
+# CONSIGNES
+
+# Ecrire un algorithme qui choisit un nombre au hasard compris entre 1 et 100. Pour ceci, on utilise la fonction : iNombreHasard <- random[1..100] Demander à l'utilisateur de trouver le nombre. On fera apparaître un message : « Plus petit ! », et inversement, « Plus grand ! » jusqu’à ce que l'utilisateur ait trouvé et afficher en combien de coups.
+
+# ALGO
+
 # utiliser le module random pour genere un nombre aléatoire
-# creer une valeur aleatoire
-# créer une valeur de depart 
-# boucle valeur de depart different de valeur aleatoire 
-# faire ecrire un nombre a l utilisateur
+# Variabel A valeur aleatoire
+# Variable B valeur de depart 
+# rep x 
+# ecrie "quel est le nombre mystere"
+    # Si pas nombre 
+        # Ecrire Entrez un nombre valide
+        # continuer
+    # Si N > S :
+        # Ecrire le nombre mystere est plus petit que S
+    # si N < S :
+        # Ecrire le nombre mystere est plus petit que S
+        
+# Variable C ecrire un nombre 
 
 
 import random

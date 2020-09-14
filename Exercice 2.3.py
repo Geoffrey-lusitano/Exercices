@@ -1,6 +1,11 @@
-# Partie Algo
-# Ecrire : entrez le prix de l'article 
-# Ecrire le nombre d'article 
+# CONSIGNES : 
+# Ecrire un programme qui lit le prix HT d’un article, le nombre d’articles et le taux de TVA, et qui fournit le prix total TTC correspondant. Faire en sorte que des libellés apparaissent clairement.
+
+
+# ALGO
+# Varible article_prix en Numerique Ecrire "entrez le prix de l'article "
+# Varible nombre_prix en Numerique Ecrire "entrez le nombre de l'article "
+
 # variable tva
 # calcul ( chiifre article_prix * nombre_article ) * chiffre a virgule (tva)
 # afficher : "Le prix de l'article HT est de ", article_prix

@@ -1,6 +1,22 @@
-# faire une liste ou un dictionnaire avec 
+# CONSIGNES
 # 
-#
+# Lire la suite des prix (en euros entiers et terminée par zéro) des achats d’un client. Calculer la somme qu’il doit, lire la somme qu’il paye, et simuler la remise de la monnaie en affichant les textes "10 Euros", "5 Euros" et "1 Euro" autant de fois qu’il y a de coupures de chaque sorte à rendre.
+# 
+#  Variable A dictionnaire avec liste des produits et prix
+# Ecrire Variable A [O] + Variable A [1] + Variable A [2]
+#  
+# Variable B Ecrire Nombre "Quel somme allez vous donner ?"
+# Variable C = Valeur absolue (Varialbe A - Variable B)
+# Variable D = Variable C modulo 10
+# Variable E = Variable D modulo 5
+# Variable F = Variable C // 10
+# Variable G = Variable D // 5
+# Variable I = Variable E // 1 + 1 
+
+# Si Varible C > Variable F : 
+    # Ecrire Varible F 
+    # Ecrire Variable G 
+    # Ecrire Variable I
 
 commande_client = {
                     0 : { "nom" : "RTX_3070" , "prix" : 519 } ,
