@@ -45,7 +45,7 @@ elif age < 25 and (duree_permis > 2 or age > 25):
         print("Vous avez droit au tarif rouge")
     else:
         print("Nous ne pouvons pas vous assurer")
-elif age > 25 and duree_permis > 2:
+elif age >= 25 and duree_permis > 2:
     if accident == 0:
         print("Vous avez droit au tarif vert")
     elif accident == 1:
@@ -58,7 +58,7 @@ else:
     pass
 
 age_contrat = int(input("Si vous etes deja en contrat chez nous, depuis combien de temps : "))
-if age_contrat > 5:
+if age_contrat >= 5:
     input("Votre couleur d'assurance actuel : ")
     if "vert" or "Vert":
         print("Votre nouvelle couleur d'assurance est Bleu")

@@ -13,6 +13,8 @@
 
 pion = int(input("Ou est votre pion ?"))
 
-l_map = [] #Cette liste contiendra ma map en 2D
+tableau = [] #Cette liste contiendra mon tableau en 2D
 for i in range(10):
-    l_map.append([0] * 10) #Ajoute 10 colonnes de 10 entiers(int) ayant pour valeurs 0
+    tableau.append([0] * 10) #Ajoute 10 colonnes de 10 entiers(int) ayant pour valeurs 0
+for i in tableau: 
+    print(i)
