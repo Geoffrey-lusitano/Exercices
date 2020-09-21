@@ -27,7 +27,7 @@ n_jour = int(input("Selectionner le jour souhaité"))
 n_mois = int(input("Selectionner le mois souhaité"))
 n_annee = int(input("Selectionner l'année'souhaitée"))
 
-is_bissextile = n_annee%4 == 0
+is_bissextile = n_annee % 4 == 0 and not(n_annee % 100 != 0)
 
 mois = {1:31, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
 
